@@ -5,4 +5,5 @@ def square_array(array)
   while array[counter] do
     result[counter] = array[counter]**2
   end
+  return result
 end
